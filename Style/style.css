@@ -1,0 +1,22 @@
+@import url(cab.css);
+@import url(aba.css);
+:root{
+    --bgesc: #191f35;
+    --branco: #ffffff;
+    --preto: #000;
+    --vrd: #2C4554;
+}
+*{
+    color:var(--fontColor);
+}
+body{
+  background:url("../Img/bgcl.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+a{
+  text-decoration: none;
+}
+main{
+  padding: 10px;
+}
