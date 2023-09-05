@@ -1,0 +1,203 @@
+.card {
+    position: relative;
+    width: 14.875em;
+    height: 20.5em;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.2em;
+    padding-bottom: 3.4em;
+  }
+  
+  .card::after {
+    content: "Adicione ao carrinho";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: var(--vrd);
+    color: #fff;
+    height: 2.5em;
+    width: 90%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+  }
+  
+  .card .title {
+    font-family: corm;
+    font-size: 1em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .card .price {
+    font-family: corm;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: var(--vrd);
+    font-weight: 800;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+
+  
+  .imgcart {
+    background: rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+.produtoscart{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+.produtoscart div{
+    margin: 8px;
+}
+.itempag{
+  padding: 5vw;
+  display: flex;
+}
+.itemimag{
+  width: 500px;
+}
+.itemimgpqn{
+  display: grid;
+  padding: 1vw;
+}
+.imgpqn{
+  width: 50px;
+  padding: 1vw 0vw;
+}
+.itdesc{
+  background-color: var(--branco);
+  padding: 5vw;
+}
+.itd{
+  font-size: 40px;
+  line-height: 100px;
+}
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+.naval{
+font-size: 30px;
+padding-right: 1vw;
+}
+.itaval{
+  display: inline-flex;
+  text-align: justify;
+}
+.indsec{
+  width: 300px; 
+  padding: 2.08vw;
+}
+
+.indprod{
+  justify-items: center;
+}
+.slide {
+  margin: auto;
+  text-align: center;
+}
+.txtserv{
+  padding: 1vw;
+  text-align: justify;
+  color: var(--cinza);
+}
+.titserv{
+  font-size: 50px;
+  font-weight: bold;
+}
+.pgserv{
+  font-size: 30px;
+  font-weight: 500;
+}
+.serv{
+  display: flex;
+  text-align: right}
+.servimg{
+  width: 450px;
+  padding: 1vw;
+}
+.taman{
+  border: none;
+  background-color: #EDEDED;
+  border-radius: 20px;
+  width: 110px;
+  padding: 0.5vw;
+  font-size: 20px;
+}
+.taman::placeholder{
+  color:#6D6D6D;
+  font-size: 20px;
+}
+.addcar{
+  border-radius: 25px;
+  border: none 20px;
+  background-color: var(--cinza);
+  color: var(--branco);
+  align-items: center;
+  display: flex;
+  font-family: corm;
+  padding: 0.5vw;
+
+}
+.addcar img{
+  height: 35px;
+  padding-right: 10px;
+}
+.comp{
+  padding-top: 30px;
+}
+.addcar:hover{
+  transform: scale(1.2);
+}
+
