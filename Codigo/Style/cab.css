@@ -30,6 +30,9 @@
     color: var(--branco);
     padding:1em;
   } 
+marquee{
+  color:var(--branco),
+    }
   .lg{
     margin: auto;
     width:100px;
