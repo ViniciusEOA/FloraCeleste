@@ -32,6 +32,16 @@
                         <br><br><br>
                         
                         <button class="enviar" onclick="verificarEmail()" >Login</button>
+                                                <script>
+                            function verificarEmail() {
+                            var email = document.getElementById("email").value;
+                            if (email === "desenvolvedor@floraceleste.com") {
+                            window.open("Central/central.html");
+                            window.close
+                            } else {
+                            window.open("index.html");
+                            window.close()
+                            }}</script>
                         <p>ou</p>
                         <div id="logcontainer">
                                 <div class="log"><img class="google" src="Img/icons8-google-logo-48 1.png"></div>
@@ -42,16 +52,6 @@
                                 <li>Não tem conta? <a href="cadastro.html"><u>Cadastre-se</u></a></li>
                             </ul>
                         </nav>
-                        <script>
-                            function verificarEmail() {
-                            var email = document.getElementById("email").value;
-                            if (email === "desenvolvedor@floraceleste.com") {
-                            window.open("Central/central.html");
-                            window.close
-                            } else {
-                            window.open("index.html");
-                            window.close()
-                            }}</script>
                     </fieldset>
                 </form>
             </section>
