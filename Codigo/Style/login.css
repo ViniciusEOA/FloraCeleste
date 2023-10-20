@@ -3,7 +3,8 @@ body{
     background:url("../Img/bgcl.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding:5vw
+    padding:5vw;
+    background-attachment: fixed;
 }
 .box{
     font-family: cormorant;
