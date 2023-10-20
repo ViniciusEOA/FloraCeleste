@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background:url("../Img/bgcl.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100% 100%;
     padding:5vw
 }
 .box{
