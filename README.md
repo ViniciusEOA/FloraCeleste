@@ -1,5 +1,5 @@
 # FloraCeleste - 2C - Manhã
-🌿 Projeto de Análise de Sistemas
+🌿 Projeto acadêmico do colégio CEEP Pedro Boaretto Neto - 2ºC Manhã 
 
 [Projeto do Site](https://viniciuseoa.github.io/FloraCeleste/Codigo/index.html)
 #
