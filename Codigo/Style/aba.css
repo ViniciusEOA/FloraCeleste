@@ -404,9 +404,8 @@ button:active {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: fit-content;
   position: relative;
-  margin: auto;
 }
 
 
@@ -425,14 +424,14 @@ button:active {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #bbbbbb90;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #f5f5f590;
 }
 
 /* Fading animation */
